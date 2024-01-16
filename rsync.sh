@@ -6,8 +6,8 @@ DEST_HOST="sismael@192.168.65.135"
 DEST_DIR="/home/sismael"
 BACKUP_NAME=$(date +%Y%m%d_%H%M)
 KEEP_BACKUPS=7  # Number of backups to keep
-MAIL_TO="customeroperations@arolitec.com"
-MAIL_FROM="support-notification@arolitec.com"
+MAIL_TO="xx@yy.com"
+MAIL_FROM="yy@zz.com"
 LOG_FILE="/var/log/backup_script.log"
 
 # Create a temporary directory for incremental backup
