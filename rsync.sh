@@ -2,7 +2,7 @@
 
 # Configurable variables
 SOURCE_DIR="/var/lib/pgsql/15/data/log"
-DEST_HOST="sismael@192.168.65.135"
+DEST_HOST="username@ipDestinationHost"
 DEST_DIR="/home/sismael"
 BACKUP_NAME=$(date +%Y%m%d_%H%M)
 KEEP_BACKUPS=7  # Number of backups to keep
